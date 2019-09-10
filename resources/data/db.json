@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "สลัดผัก",
+      "unitPrice": "120",
+      "thumbnail": "/images/product/1.png"
+    },
+    {
+      "id": 2,
+      "productName": "ไก่ทอด",
+      "unitPrice": "90",
+      "thumbnail": "/images/product/2.png"
+    },
+    {
+      "id": 5,
+      "productName": "เค้ก",
+      "unitPrice": "180",
+      "thumbnail": "/images/product/5.png"
+    },
+    {
+      "id": 6,
+      "productName": "กาแฟ เฮลตี้ฟู๊ด",
+      "unitPrice": "250",
+      "thumbnail": "/images/product/6.png"
+    }
+  ],
+  "orders": [
+    {
+      "orderedDate": "2019-06-14T08:05:21.488Z",
+      "totalPrice": 290,
+      "orders": [
+        {
+          "product": {
+            "id": 3,
+            "productName": "บิงซู",
+            "unitPrice": "200",
+            "thumbnail": "/images/product/3.png"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 2,
+            "productName": "ไก่ทอด",
+            "unitPrice": "90",
+            "thumbnail": "/images/product/2.png"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
